@@ -9,6 +9,8 @@ verify_ssl = true
 jupyterlab = "*"
 faker = "*"
 pandas = "*"
+apache-airflow = {extras = ["celery", "postgres", "slack"], version = "*"}
+pyodbc = "*"
 
 [requires]
 python_version = "3.9"
